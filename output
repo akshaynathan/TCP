@@ -1,0 +1,62 @@
+edge 0 1 lossRate 0 delay 200 bw 10000 bt 1000 // No loss test
+
+Node 0: started
+Node 0: server started, port = 5
+SNode 0: time = 1385122440903 msec
+Node 0: connection accepted
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................FNode 0: time = 1385122449918 msec
+Node 0: connection closed
+Node 0: total bytes received = 50000
+
+For the server, we can see that we originally receive a SYN to start the connection, then a sequence of data packets b/c nothing is lost, followed by a FIN to close the connection.
+
+Node 1: started
+S:Node 1: time = 1385122441150 msec
+Node 1: started
+Node 1: bytes to send = 50000
+....................:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..Node 1: time = 1385122442182
+Node 1: sending completed
+Node 1: closing connection...
+:..:..:..:..:..:..:..:..:..:..:...:::::!.:::::::::::::::::::::.:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:...::!.::::::?!.?!::::::::::::::::::::::::::..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..!.:::::::::::::::?!!.?!?!::::::::::::.:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..::::::::!.:::::!.::::::::::::::::::::::..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..?!!.?!?!::::::::::::::::::.:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..?!!.:::::::::::::::::::::::::::..:..:..:..:..:::::::::::::::::::::::::::::::::::::::::::::::::::::::::!.:::::::::::::::::?!!.:::::!.:::::FNode 1: time = 1385122448185 msec
+Node 1: connection closed
+Node 1: total bytes sent = 50000
+Node 1: time elapsed = 7035 msec
+Node 1: Bps = 7107.320540156361
+
+In our client, we have the original SYN sent to connect, followed by an ACK that advances the sequence number. The n we have a series of data packets followed by ACKs. Someties we are sending a data packet twice (indicated by the !). This is because our packets timeout, the reason this happens even when there is no loss is because of delay and congestion within the network. We notice that there are consecutive timeouts, this is probably b/c we are not doing slow start so our window
+size goes right back up very soon and we reach another timeout. At the end we see the Fin to close the connection.
+
+edge 0 1 lossRate 0.05 delay 200 bw 10000 bt 1000 // With loss
+
+Node 0: started
+Node 0: server started, port = 5
+SNode 0: time = 1385123781203 msec
+Node 0: connection accepted
+............!.....................................................................................................................................................................................................................................!.................................!.........................................................................................................................................................!......................................!..........!...........................................................................!...................................................FNode 0: time = 1385123841276 msec
+Node 0: connection closed
+Node 0: total bytes received = 50000
+
+Server:
+With loss, we have some duplicate data packets that come in. Packets where the sequence number is < than our sequence number. This is because our acks get lost on the way back and the packets are resent b/c of timeout or retransmit. We don't count packets where sequence number > ours as duplicates b/c they go into our out of order buffer.
+
+Node 1: started
+S:Node 1: time = 1385123781147 msec
+Node 1: started
+Node 1: bytes to send = 50000
+....................:..:..:...:..:...:..?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!Node 1: time = 1385123782178
+Node 1: sending completed
+Node 1: closing connection...
+:...........................?!?!?!.!?!:..:..:..:..:..:..:..:..:..:..:..:..:..?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!!.?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!:?!?!?!.!?!?!?!.!?!?!?!.!?!?!:?!?!!.!.:!.:.....:..:..:..:..:..:..:..:..:..?!?!?!.!?!?!?!.!?!?!?!.!?!!.:........?!?!:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..?!?!!.?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!!.?!?!?!.!?!?!?!.!?!?!?!.!?!:...?!?!?!.!!.?!?!?!.!?!?!?!.!:?!?!?!.!:!.:!.!.!.!.:!.:!.:!.!.:.?!!.:..?!!.:..:...:..:..:..:...:..:..:..:..:..:..:..:..?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!:................?!?!:..:..:..:..:..:..:..:..:....:..:..:..:..:..:..:..:..:..:..:..:..:..?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!!.?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!!.:...........?!?!?!.!?!?!?!.!!.?!?!?!.!?!:::.:..:..:..?!?!?!.!?!?!?!.!?!!.?!?!?!.!?!:.?!?!?!.!?!!.:...?!?!?!.!!.:...?!?!?!.!!.:...?!:..:..:..:..?!?!?!.!?!?!:......?!?!?!.!?!?!?!.!:.........?!:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..!.:::::::::..:..:..:..:..:..:..:..:..:..:..:..:..:..:..:..!.::::!.:!.::::?!!.!.:::::::::::!.::::::.:..:..:..:..:..:..:..:..!.?!?!!.?!?!?!.!?!!.?!!.?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!?!?!!.:?!!.?!?!!.!.?!!.?!?!?!.!?!:?!?!!.?!!.:..!.?!:..:..!.:.:..:..:..!.?!::..:..:...:..:..!.?!:::.:..:..:..:..:..:..:..:..!.?!!.:::::::..:..:..:..:..:..:..!.?!?!?!.!!.?!!.?!!.?!?!?!.!?!?!?!.!?!?!?!.!?!?!?!.!!.?!:..?!!.?!?!!.!.!.?!?!?!.!?!?!:.:..?!?!!.?!?!:.:..:..?!!.::..:..:...!.?!::.:..:..:..:..?!!.?!?!?!.!?!?!?!.!?!?!?!.!!.:FNode 1: time = 1385123840226 msec
+Node 1: connection closed
+Node 1: total bytes sent = 50000
+Node 1: time elapsed = 59079 msec
+Node 1: Bps = 846.3244130740195
+
+Client:
+For our client, we can see that in many places data is retransmitted by fast retrasmit (2 !'s in a row) or by the timeout because the data packets are lost. Because our server handles out of order packets, we don't have these as much as we might because we cumulative ack everything else once the out of order packets are added to the buffer. We also notice that although in this case the inital SYN and ACK came through, sometimes with loss they won't which means we will have multiple S's as
+the client tries to send the SYN again.
+
+
+////////
+
+I have also included the client debug output in the file client_debug from when I reduced the bandwidth to 1000 on the previous test. In this output, you can see the window size go down and up as it hits timeout events bc of congestion, and increases with additive increase but hits timeout events again. The easiest way to see this is to grep 'additiveIncrease' and 'multiplicateDecrease'.

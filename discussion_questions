@@ -1,0 +1,15 @@
+1a) One problem is that if we don't use random sequence numbers, this presents a security risk. An attacker would be able to guess valid sequence numbers and inject them into the TCP stream. Another problem is that if we establish a new connection within the guaranteed time that packets stay in the network. In this case, a packet from the old connection could be interpretted as a packet to the new connection (because the sequence numbers are still in the same range). This is not
+"solved by randomness, but the chance of it happening is much, much lower.
+
+1b) There are two cases. If all the SYNS are from the same ip/port pair, then my implementation will be in an established connection stuck waiting for data. This is not a large problem as SYN messages in this state will be ignored, but it would be a problem b/c it could cause congestion on the network keeping actual data packets from reaching me.
+
+The other case is when all these SYNS are from different ports or even port/addr pairs. This means the listening socket will create as many new connections for each of these SYNS, at least until it fills the backlog or some of these connections are accepted. This will bind up the server from responding to legitimate requests.
+
+There's a couple things we can do to mitigate this. For one, we could associate a timeout value with each incoming connection, and simply close half created connections if no data arrives within the timeout. The problem with this is that there might be a legitimate reason no data is arriving (packets lost by the network).
+
+The other possibility is that we can implement a three way handshake. This means that the listening socket will require an ACK from the client before it creates a new connection. This will keep our backlog from filling up.
+
+1c) If someone just keeps sending DATA, the connection will remain open indefinitely. One way to fix this would be to associate a timeout value with connections (if we don't see DATA for a certain amount of time, automatically close the connection). This way, connections will be closed and not remain open forever.
+
+2) Let us assume that the receiving application is reading data from the read buffer faster than its filling up, so that the size of the receive buffer N ~= the advertised window size (the remaining space in the buffer). This means, our only constraint is we don't want the advertised window size, N, to slow down the sender. This means that if there can be K bytes at any time between the sender and the receiver, our buffer should be at least of size K to accomodate all the bytes. K is
+also known as the Bandwidth Delay product.

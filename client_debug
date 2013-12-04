@@ -1,0 +1,1638 @@
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 5881, type 0, and payload length 0.
+Node 1: TCPSock- sendPacket:Sending packet with seq:5881 at seq:5881
+Node 1: TCPManager: Sending packet - Type:SYN Sequence Number:5881 Origin Port:5 Dest Port:5 Payload Size:0 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1000 for sNo: 5881
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:5882 Window Size:2048 SendBase:0 Remaining in Buffer:0 Timeout:1000
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:5882 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 5881 has been cancelled (sendBase: 5882)
+Node 1: TCPSock- write:Attempting to write 10000 bytes. Current State: Client Socket: Sequence Number:5882 Window Size:2048 SendBase:5882 Remaining in Buffer:0 Timeout:1000.
+Node 1: TCPSock- write:Putting 10000 bytes into the buffer.
+Node 1: TCPSock- write:Sending 2048 bytes with sequence number 5882.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 5882, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:5882 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:5882 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 5989, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:5989 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:5989 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6096, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6096 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6096 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6203, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6203 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6203 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6310, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6310 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6310 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6417, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6417 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6417 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6524, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6524 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6524 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6631, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6631 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6738, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6738 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6738 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6845, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6845 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6845 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 6952, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6952 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6952 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7059, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7059 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7059 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7166, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7166 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7166 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7273, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7273 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7273 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7380, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7380 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7380 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7487, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7487 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7487 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7594, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7594 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7594 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7701, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7701 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7701 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7808, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7808 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7808 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2048, seqno 7915, type 3, and payload length 15.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7915 at seq:5882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7915 Origin Port:5 Dest Port:5 Payload Size:15 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1000 for sNo: 5882
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:7930 Window Size:2048 SendBase:5882 Remaining in Buffer:10000 Timeout:1000
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6203 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6203 from 5882.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1000
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2394
+Node 1: TCPSock- additiveIncrease:Old Window Size: 2048
+Node 1: TCPSock- additiveIncrease:New Window Size: 2155
+Node 1: TCPSock- flowControl:Old Window Size: 2155
+Node 1: TCPSock- flowControl:New Window Size: 2155
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2394 for sNo: 6203
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:7930 Window Size:2155 SendBase:6203 Remaining in Buffer:9679 Timeout:2394. Buffer Size:9679, Window Size: 2155, SendBase:6203, Next Sequence Number:7930
+Node 1: TCPSock- sendBuffer:Sending 428 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2155, seqno 7930, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7930 at seq:7930
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7930 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2155, seqno 8037, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8037 at seq:7930
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8037 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2155, seqno 8144, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8144 at seq:7930
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8144 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2155, seqno 8251, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8251 at seq:7930
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8251 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:8358 Window Size:2155 SendBase:6203 Remaining in Buffer:9679 Timeout:2394
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6310 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6310 from 6203.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2394
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2582
+Node 1: TCPSock- additiveIncrease:Old Window Size: 2155
+Node 1: TCPSock- additiveIncrease:New Window Size: 2262
+Node 1: TCPSock- flowControl:Old Window Size: 2262
+Node 1: TCPSock- flowControl:New Window Size: 2262
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2582 for sNo: 6310
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:8358 Window Size:2262 SendBase:6310 Remaining in Buffer:9572 Timeout:2582. Buffer Size:9572, Window Size: 2262, SendBase:6310, Next Sequence Number:8358
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2262, seqno 8358, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8358 at seq:8358
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8358 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2262, seqno 8465, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8465 at seq:8358
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8465 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 5882 has been cancelled (sendBase: 6310)
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6310 and nextSequenceNumber:8572 and remainingBytes:9572.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:8572 Window Size:2262 SendBase:6310 Remaining in Buffer:9572 Timeout:2582
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6524 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6524 from 6310.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2582
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2520
+Node 1: TCPSock- additiveIncrease:Old Window Size: 2262
+Node 1: TCPSock- additiveIncrease:New Window Size: 2369
+Node 1: TCPSock- flowControl:Old Window Size: 2369
+Node 1: TCPSock- flowControl:New Window Size: 2369
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2520 for sNo: 6524
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:8572 Window Size:2369 SendBase:6524 Remaining in Buffer:9358 Timeout:2520. Buffer Size:9358, Window Size: 2369, SendBase:6524, Next Sequence Number:8572
+Node 1: TCPSock- sendBuffer:Sending 321 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2369, seqno 8572, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8572 at seq:8572
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8572 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2369, seqno 8679, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8679 at seq:8572
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8679 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2369, seqno 8786, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8786 at seq:8572
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8786 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6524 and nextSequenceNumber:8893 and remainingBytes:9358.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:8893 Window Size:2369 SendBase:6524 Remaining in Buffer:9358 Timeout:2520
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6631 from 6524.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2520
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2514
+Node 1: TCPSock- additiveIncrease:Old Window Size: 2369
+Node 1: TCPSock- additiveIncrease:New Window Size: 2476
+Node 1: TCPSock- flowControl:Old Window Size: 2476
+Node 1: TCPSock- flowControl:New Window Size: 2476
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2514 for sNo: 6631
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:8893 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514. Buffer Size:9251, Window Size: 2476, SendBase:6631, Next Sequence Number:8893
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2476, seqno 8893, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8893 at seq:8893
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8893 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2476, seqno 9000, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9000 at seq:8893
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9000 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 6631.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2476, seqno 6631, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6631 at seq:9107
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 6631.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2476, seqno 6631, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6631 at seq:9107
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6631 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6631 and nextSequenceNumber:9107 and remainingBytes:9251.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9107 Window Size:2476 SendBase:6631 Remaining in Buffer:9251 Timeout:2514
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6738 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6738 from 6631.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2514
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2988
+Node 1: TCPSock- additiveIncrease:Old Window Size: 2476
+Node 1: TCPSock- additiveIncrease:New Window Size: 2583
+Node 1: TCPSock- flowControl:Old Window Size: 2583
+Node 1: TCPSock- flowControl:New Window Size: 2583
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2988 for sNo: 6738
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9107 Window Size:2583 SendBase:6738 Remaining in Buffer:9144 Timeout:2988. Buffer Size:9144, Window Size: 2583, SendBase:6738, Next Sequence Number:9107
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2583, seqno 9107, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9107 at seq:9107
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9107 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2583, seqno 9214, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9214 at seq:9107
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9214 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6738 and nextSequenceNumber:9321 and remainingBytes:9144.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:2583 SendBase:6738 Remaining in Buffer:9144 Timeout:2988
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6738 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6738 and nextSequenceNumber:9321 and remainingBytes:9144.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6203 has been cancelled (sendBase: 6738)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:2583 SendBase:6738 Remaining in Buffer:9144 Timeout:2988
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6738 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6738 and nextSequenceNumber:9321 and remainingBytes:9144.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6310 has been cancelled (sendBase: 6738)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6524 has been cancelled (sendBase: 6738)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6631 has been cancelled (sendBase: 6738)
+Node 1: TCPSock- handleTimeout:Data packet 6738 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 2583
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 1291
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1291, seqno 6738, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6738 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6738 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 5976 for sNo: 6738
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:1291 SendBase:6738 Remaining in Buffer:9144 Timeout:5976
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6845 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6845 from 6738.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 5976
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2534
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1291
+Node 1: TCPSock- additiveIncrease:New Window Size: 1398
+Node 1: TCPSock- flowControl:Old Window Size: 1398
+Node 1: TCPSock- flowControl:New Window Size: 1398
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2534 for sNo: 6845
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:1398 SendBase:6845 Remaining in Buffer:9037 Timeout:2534. Buffer Size:9037, Window Size: 1398, SendBase:6845, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6845 and nextSequenceNumber:9321 and remainingBytes:9037.
+Node 1: TCPSock- handleTimeout:Data packet 6845 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 1398
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 699
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 699, seqno 6845, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6845 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6845 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 5068 for sNo: 6845
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:699 SendBase:6845 Remaining in Buffer:9037 Timeout:5068
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:6952 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 6952 from 6845.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 5068
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2178
+Node 1: TCPSock- additiveIncrease:Old Window Size: 699
+Node 1: TCPSock- additiveIncrease:New Window Size: 806
+Node 1: TCPSock- flowControl:Old Window Size: 806
+Node 1: TCPSock- flowControl:New Window Size: 806
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2178 for sNo: 6952
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:806 SendBase:6952 Remaining in Buffer:8930 Timeout:2178. Buffer Size:8930, Window Size: 806, SendBase:6952, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:6952 and nextSequenceNumber:9321 and remainingBytes:8930.
+Node 1: TCPSock- handleTimeout:Data packet 6952 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 806
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 403
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 403, seqno 6952, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:6952 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:6952 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 4356 for sNo: 6952
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6738 has been cancelled (sendBase: 6952)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:403 SendBase:6952 Remaining in Buffer:8930 Timeout:4356
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7059 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7059 from 6952.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 4356
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1889
+Node 1: TCPSock- additiveIncrease:Old Window Size: 403
+Node 1: TCPSock- additiveIncrease:New Window Size: 510
+Node 1: TCPSock- flowControl:Old Window Size: 510
+Node 1: TCPSock- flowControl:New Window Size: 510
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1889 for sNo: 7059
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:510 SendBase:7059 Remaining in Buffer:8823 Timeout:1889. Buffer Size:8823, Window Size: 510, SendBase:7059, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7059 and nextSequenceNumber:9321 and remainingBytes:8823.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6845 has been cancelled (sendBase: 7059)
+Node 1: TCPSock- handleTimeout:Data packet 7059 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 510
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 255
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 255, seqno 7059, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7059 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7059 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 3778 for sNo: 7059
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:255 SendBase:7059 Remaining in Buffer:8823 Timeout:3778
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7166 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7166 from 7059.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 3778
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1657
+Node 1: TCPSock- additiveIncrease:Old Window Size: 255
+Node 1: TCPSock- additiveIncrease:New Window Size: 362
+Node 1: TCPSock- flowControl:Old Window Size: 362
+Node 1: TCPSock- flowControl:New Window Size: 362
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1657 for sNo: 7166
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:362 SendBase:7166 Remaining in Buffer:8716 Timeout:1657. Buffer Size:8716, Window Size: 362, SendBase:7166, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7166 and nextSequenceNumber:9321 and remainingBytes:8716.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 6952 has been cancelled (sendBase: 7166)
+Node 1: TCPSock- handleTimeout:Data packet 7166 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 362
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 181
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 181, seqno 7166, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7166 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7166 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 3314 for sNo: 7166
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:181 SendBase:7166 Remaining in Buffer:8716 Timeout:3314
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7273 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7273 from 7166.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 3314
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1474
+Node 1: TCPSock- additiveIncrease:Old Window Size: 181
+Node 1: TCPSock- additiveIncrease:New Window Size: 288
+Node 1: TCPSock- flowControl:Old Window Size: 288
+Node 1: TCPSock- flowControl:New Window Size: 288
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1474 for sNo: 7273
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:288 SendBase:7273 Remaining in Buffer:8609 Timeout:1474. Buffer Size:8609, Window Size: 288, SendBase:7273, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7273 and nextSequenceNumber:9321 and remainingBytes:8609.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7059 has been cancelled (sendBase: 7273)
+Node 1: TCPSock- handleTimeout:Data packet 7273 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 288
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 144
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 144, seqno 7273, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7273 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7273 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2948 for sNo: 7273
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:144 SendBase:7273 Remaining in Buffer:8609 Timeout:2948
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7380 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7380 from 7273.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2948
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1321
+Node 1: TCPSock- additiveIncrease:Old Window Size: 144
+Node 1: TCPSock- additiveIncrease:New Window Size: 251
+Node 1: TCPSock- flowControl:Old Window Size: 251
+Node 1: TCPSock- flowControl:New Window Size: 251
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1321 for sNo: 7380
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:251 SendBase:7380 Remaining in Buffer:8502 Timeout:1321. Buffer Size:8502, Window Size: 251, SendBase:7380, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7380 and nextSequenceNumber:9321 and remainingBytes:8502.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7166 has been cancelled (sendBase: 7380)
+Node 1: TCPSock- handleTimeout:Data packet 7380 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 251
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 125
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 125, seqno 7380, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7380 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7380 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2642 for sNo: 7380
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:125 SendBase:7380 Remaining in Buffer:8502 Timeout:2642
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7487 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7487 from 7380.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2642
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1197
+Node 1: TCPSock- additiveIncrease:Old Window Size: 125
+Node 1: TCPSock- additiveIncrease:New Window Size: 232
+Node 1: TCPSock- flowControl:Old Window Size: 232
+Node 1: TCPSock- flowControl:New Window Size: 232
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1197 for sNo: 7487
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:232 SendBase:7487 Remaining in Buffer:8395 Timeout:1197. Buffer Size:8395, Window Size: 232, SendBase:7487, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7487 and nextSequenceNumber:9321 and remainingBytes:8395.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7273 has been cancelled (sendBase: 7487)
+Node 1: TCPSock- handleTimeout:Data packet 7487 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 232
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 116
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 116, seqno 7487, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7487 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7487 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2394 for sNo: 7487
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:116 SendBase:7487 Remaining in Buffer:8395 Timeout:2394
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7594 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7594 from 7487.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2394
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1094
+Node 1: TCPSock- additiveIncrease:Old Window Size: 116
+Node 1: TCPSock- additiveIncrease:New Window Size: 223
+Node 1: TCPSock- flowControl:Old Window Size: 223
+Node 1: TCPSock- flowControl:New Window Size: 223
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1094 for sNo: 7594
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:223 SendBase:7594 Remaining in Buffer:8288 Timeout:1094. Buffer Size:8288, Window Size: 223, SendBase:7594, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7594 and nextSequenceNumber:9321 and remainingBytes:8288.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7380 has been cancelled (sendBase: 7594)
+Node 1: TCPSock- handleTimeout:Data packet 7594 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 223
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 111
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 111, seqno 7594, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7594 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7594 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2188 for sNo: 7594
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:111 SendBase:7594 Remaining in Buffer:8288 Timeout:2188
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7701 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7701 from 7594.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2188
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1004
+Node 1: TCPSock- additiveIncrease:Old Window Size: 111
+Node 1: TCPSock- additiveIncrease:New Window Size: 218
+Node 1: TCPSock- flowControl:Old Window Size: 218
+Node 1: TCPSock- flowControl:New Window Size: 218
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1004 for sNo: 7701
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:218 SendBase:7701 Remaining in Buffer:8181 Timeout:1004. Buffer Size:8181, Window Size: 218, SendBase:7701, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7701 and nextSequenceNumber:9321 and remainingBytes:8181.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7487 has been cancelled (sendBase: 7701)
+Node 1: TCPSock- handleTimeout:Data packet 7701 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 218
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 109
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 109, seqno 7701, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7701 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7701 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2008 for sNo: 7701
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:109 SendBase:7701 Remaining in Buffer:8181 Timeout:2008
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7808 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7808 from 7701.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2008
+Node 1: TCPSock- recomputeTimeout:New Timeout: 935
+Node 1: TCPSock- additiveIncrease:Old Window Size: 109
+Node 1: TCPSock- additiveIncrease:New Window Size: 216
+Node 1: TCPSock- flowControl:Old Window Size: 216
+Node 1: TCPSock- flowControl:New Window Size: 216
+Node 1: TCPSock- addTimer:Adding timer with timeout: 935 for sNo: 7808
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:216 SendBase:7808 Remaining in Buffer:8074 Timeout:935. Buffer Size:8074, Window Size: 216, SendBase:7808, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7808 and nextSequenceNumber:9321 and remainingBytes:8074.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7594 has been cancelled (sendBase: 7808)
+Node 1: TCPSock- handleTimeout:Data packet 7808 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 216
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 108
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 108, seqno 7808, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7808 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7808 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1870 for sNo: 7808
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7701 has been cancelled (sendBase: 7808)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:108 SendBase:7808 Remaining in Buffer:8074 Timeout:1870
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:7915 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 7915 from 7808.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1870
+Node 1: TCPSock- recomputeTimeout:New Timeout: 878
+Node 1: TCPSock- additiveIncrease:Old Window Size: 108
+Node 1: TCPSock- additiveIncrease:New Window Size: 215
+Node 1: TCPSock- flowControl:Old Window Size: 215
+Node 1: TCPSock- flowControl:New Window Size: 215
+Node 1: TCPSock- addTimer:Adding timer with timeout: 878 for sNo: 7915
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:215 SendBase:7915 Remaining in Buffer:7967 Timeout:878. Buffer Size:7967, Window Size: 215, SendBase:7915, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:7915 and nextSequenceNumber:9321 and remainingBytes:7967.
+Node 1: TCPSock- handleTimeout:Data packet 7915 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 215
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 107
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 107, seqno 7915, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:7915 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:7915 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1756 for sNo: 7915
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7808 has been cancelled (sendBase: 7915)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:107 SendBase:7915 Remaining in Buffer:7967 Timeout:1756
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:8022 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 8022 from 7915.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1756
+Node 1: TCPSock- recomputeTimeout:New Timeout: 830
+Node 1: TCPSock- additiveIncrease:Old Window Size: 107
+Node 1: TCPSock- additiveIncrease:New Window Size: 214
+Node 1: TCPSock- flowControl:Old Window Size: 214
+Node 1: TCPSock- flowControl:New Window Size: 214
+Node 1: TCPSock- addTimer:Adding timer with timeout: 830 for sNo: 8022
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:214 SendBase:8022 Remaining in Buffer:7860 Timeout:830. Buffer Size:7860, Window Size: 214, SendBase:8022, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:8022 and nextSequenceNumber:9321 and remainingBytes:7860.
+Node 1: TCPSock- handleTimeout:Data packet 8022 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 214
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 107
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 107, seqno 8022, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8022 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8022 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1660 for sNo: 8022
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 7915 has been cancelled (sendBase: 8022)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:107 SendBase:8022 Remaining in Buffer:7860 Timeout:1660
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:8251 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 8251 from 8022.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1660
+Node 1: TCPSock- recomputeTimeout:New Timeout: 790
+Node 1: TCPSock- additiveIncrease:Old Window Size: 107
+Node 1: TCPSock- additiveIncrease:New Window Size: 214
+Node 1: TCPSock- flowControl:Old Window Size: 214
+Node 1: TCPSock- flowControl:New Window Size: 214
+Node 1: TCPSock- addTimer:Adding timer with timeout: 790 for sNo: 8251
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:214 SendBase:8251 Remaining in Buffer:7631 Timeout:790. Buffer Size:7631, Window Size: 214, SendBase:8251, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:8251 and nextSequenceNumber:9321 and remainingBytes:7631.
+Node 1: TCPSock- handleTimeout:Data packet 8251 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 214
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 107
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 107, seqno 8251, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:8251 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:8251 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1580 for sNo: 8251
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 8022 has been cancelled (sendBase: 8251)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:107 SendBase:8251 Remaining in Buffer:7631 Timeout:1580
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9000 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 9000 from 8251.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1580
+Node 1: TCPSock- recomputeTimeout:New Timeout: 755
+Node 1: TCPSock- additiveIncrease:Old Window Size: 107
+Node 1: TCPSock- additiveIncrease:New Window Size: 214
+Node 1: TCPSock- flowControl:Old Window Size: 214
+Node 1: TCPSock- flowControl:New Window Size: 214
+Node 1: TCPSock- addTimer:Adding timer with timeout: 755 for sNo: 9000
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:214 SendBase:9000 Remaining in Buffer:6882 Timeout:755. Buffer Size:6882, Window Size: 214, SendBase:9000, Next Sequence Number:9321
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9000 and nextSequenceNumber:9321 and remainingBytes:6882.
+Node 1: TCPSock- handleTimeout:Data packet 9000 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 214
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 107
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 107, seqno 9000, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9000 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9000 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1510 for sNo: 9000
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 8251 has been cancelled (sendBase: 9000)
+Node 1: TCPSock- handleTimeout:Data packet 9000 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 107
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 53
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 53, seqno 9000, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9000 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9000 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 3020 for sNo: 9000
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9321 Window Size:53 SendBase:9000 Remaining in Buffer:6882 Timeout:3020
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9321 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 9321 from 9000.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 3020
+Node 1: TCPSock- recomputeTimeout:New Timeout: 724
+Node 1: TCPSock- additiveIncrease:Old Window Size: 53
+Node 1: TCPSock- additiveIncrease:New Window Size: 160
+Node 1: TCPSock- flowControl:Old Window Size: 160
+Node 1: TCPSock- flowControl:New Window Size: 160
+Node 1: TCPSock- addTimer:Adding timer with timeout: 724 for sNo: 9321
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9321 Window Size:160 SendBase:9321 Remaining in Buffer:6561 Timeout:724. Buffer Size:6561, Window Size: 160, SendBase:9321, Next Sequence Number:9321
+Node 1: TCPSock- sendBuffer:Sending 160 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 160, seqno 9321, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9321 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9321 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 160, seqno 9428, type 3, and payload length 53.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9428 at seq:9321
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9428 Origin Port:5 Dest Port:5 Payload Size:53 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9321 and nextSequenceNumber:9481 and remainingBytes:6561.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9481 Window Size:160 SendBase:9321 Remaining in Buffer:6561 Timeout:724
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9428 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 9428 from 9321.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 724
+Node 1: TCPSock- recomputeTimeout:New Timeout: 694
+Node 1: TCPSock- additiveIncrease:Old Window Size: 160
+Node 1: TCPSock- additiveIncrease:New Window Size: 267
+Node 1: TCPSock- flowControl:Old Window Size: 267
+Node 1: TCPSock- flowControl:New Window Size: 267
+Node 1: TCPSock- addTimer:Adding timer with timeout: 694 for sNo: 9428
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9481 Window Size:267 SendBase:9428 Remaining in Buffer:6454 Timeout:694. Buffer Size:6454, Window Size: 267, SendBase:9428, Next Sequence Number:9481
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 267, seqno 9481, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9481 at seq:9481
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 267, seqno 9588, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9588 at seq:9481
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9588 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9428 and nextSequenceNumber:9695 and remainingBytes:6454.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9695 Window Size:267 SendBase:9428 Remaining in Buffer:6454 Timeout:694
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 9481 from 9428.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 694
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1095
+Node 1: TCPSock- additiveIncrease:Old Window Size: 267
+Node 1: TCPSock- additiveIncrease:New Window Size: 374
+Node 1: TCPSock- flowControl:Old Window Size: 374
+Node 1: TCPSock- flowControl:New Window Size: 374
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1095 for sNo: 9481
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9695 Window Size:374 SendBase:9481 Remaining in Buffer:6401 Timeout:1095. Buffer Size:6401, Window Size: 374, SendBase:9481, Next Sequence Number:9695
+Node 1: TCPSock- sendBuffer:Sending 160 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 374, seqno 9695, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9695 at seq:9695
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9695 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 374, seqno 9802, type 3, and payload length 53.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9802 at seq:9695
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9802 Origin Port:5 Dest Port:5 Payload Size:53 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9481 and nextSequenceNumber:9855 and remainingBytes:6401.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 9321 has been cancelled (sendBase: 9481)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9855 Window Size:374 SendBase:9481 Remaining in Buffer:6401 Timeout:1095
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9481 and nextSequenceNumber:9855 and remainingBytes:6401.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 9428 has been cancelled (sendBase: 9481)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9855 Window Size:374 SendBase:9481 Remaining in Buffer:6401 Timeout:1095
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9481 and nextSequenceNumber:9855 and remainingBytes:6401.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9855 Window Size:374 SendBase:9481 Remaining in Buffer:6401 Timeout:1095
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 9481.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 374, seqno 9481, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9481 at seq:9855
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9481 and nextSequenceNumber:9855 and remainingBytes:6401.
+Node 1: TCPSock- handleTimeout:Data packet 9481 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 374
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 187
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 187, seqno 9481, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9481 at seq:9855
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9481 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2190 for sNo: 9481
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:9855 Window Size:187 SendBase:9481 Remaining in Buffer:6401 Timeout:2190
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9855 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 9855 from 9481.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2190
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1149
+Node 1: TCPSock- additiveIncrease:Old Window Size: 187
+Node 1: TCPSock- additiveIncrease:New Window Size: 294
+Node 1: TCPSock- flowControl:Old Window Size: 294
+Node 1: TCPSock- flowControl:New Window Size: 294
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1149 for sNo: 9855
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:9855 Window Size:294 SendBase:9855 Remaining in Buffer:6027 Timeout:1149. Buffer Size:6027, Window Size: 294, SendBase:9855, Next Sequence Number:9855
+Node 1: TCPSock- sendBuffer:Sending 294 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 294, seqno 9855, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9855 at seq:9855
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9855 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 294, seqno 9962, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:9962 at seq:9855
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:9962 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 294, seqno 10069, type 3, and payload length 80.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10069 at seq:9855
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10069 Origin Port:5 Dest Port:5 Payload Size:80 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9855 and nextSequenceNumber:10149 and remainingBytes:6027.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:10149 Window Size:294 SendBase:9855 Remaining in Buffer:6027 Timeout:1149
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9855 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9855 and nextSequenceNumber:10149 and remainingBytes:6027.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 9000 has been cancelled (sendBase: 9855)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:10149 Window Size:294 SendBase:9855 Remaining in Buffer:6027 Timeout:1149
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:9962 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 9962 from 9855.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1149
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1066
+Node 1: TCPSock- additiveIncrease:Old Window Size: 294
+Node 1: TCPSock- additiveIncrease:New Window Size: 401
+Node 1: TCPSock- flowControl:Old Window Size: 401
+Node 1: TCPSock- flowControl:New Window Size: 401
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1066 for sNo: 9962
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:10149 Window Size:401 SendBase:9962 Remaining in Buffer:5920 Timeout:1066. Buffer Size:5920, Window Size: 401, SendBase:9962, Next Sequence Number:10149
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 401, seqno 10149, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10149 at seq:10149
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10149 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 401, seqno 10256, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10256 at seq:10149
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10256 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:9962 and nextSequenceNumber:10363 and remainingBytes:5920.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:10363 Window Size:401 SendBase:9962 Remaining in Buffer:5920 Timeout:1066
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10069 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10069 from 9962.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1066
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1236
+Node 1: TCPSock- additiveIncrease:Old Window Size: 401
+Node 1: TCPSock- additiveIncrease:New Window Size: 508
+Node 1: TCPSock- flowControl:Old Window Size: 508
+Node 1: TCPSock- flowControl:New Window Size: 508
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1236 for sNo: 10069
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:10363 Window Size:508 SendBase:10069 Remaining in Buffer:5813 Timeout:1236. Buffer Size:5813, Window Size: 508, SendBase:10069, Next Sequence Number:10363
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 508, seqno 10363, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10363 at seq:10363
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10363 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 508, seqno 10470, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10470 at seq:10363
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10470 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10069 and nextSequenceNumber:10577 and remainingBytes:5813.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:10577 Window Size:508 SendBase:10069 Remaining in Buffer:5813 Timeout:1236
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10149 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10149 from 10069.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1236
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1329
+Node 1: TCPSock- additiveIncrease:Old Window Size: 508
+Node 1: TCPSock- additiveIncrease:New Window Size: 615
+Node 1: TCPSock- flowControl:Old Window Size: 615
+Node 1: TCPSock- flowControl:New Window Size: 615
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1329 for sNo: 10149
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:10577 Window Size:615 SendBase:10149 Remaining in Buffer:5733 Timeout:1329. Buffer Size:5733, Window Size: 615, SendBase:10149, Next Sequence Number:10577
+Node 1: TCPSock- sendBuffer:Sending 187 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 615, seqno 10577, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10577 at seq:10577
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10577 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 615, seqno 10684, type 3, and payload length 80.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10684 at seq:10577
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10684 Origin Port:5 Dest Port:5 Payload Size:80 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10149 and nextSequenceNumber:10764 and remainingBytes:5733.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:10764 Window Size:615 SendBase:10149 Remaining in Buffer:5733 Timeout:1329
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10256 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10256 from 10149.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1329
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1156
+Node 1: TCPSock- additiveIncrease:Old Window Size: 615
+Node 1: TCPSock- additiveIncrease:New Window Size: 722
+Node 1: TCPSock- flowControl:Old Window Size: 722
+Node 1: TCPSock- flowControl:New Window Size: 722
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1156 for sNo: 10256
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:10764 Window Size:722 SendBase:10256 Remaining in Buffer:5626 Timeout:1156. Buffer Size:5626, Window Size: 722, SendBase:10256, Next Sequence Number:10764
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 722, seqno 10764, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10764 at seq:10764
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10764 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 722, seqno 10871, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10871 at seq:10764
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10256 and nextSequenceNumber:10978 and remainingBytes:5626.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 9855 has been cancelled (sendBase: 10256)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:10978 Window Size:722 SendBase:10256 Remaining in Buffer:5626 Timeout:1156
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10363 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10363 from 10256.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1156
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1191
+Node 1: TCPSock- additiveIncrease:Old Window Size: 722
+Node 1: TCPSock- additiveIncrease:New Window Size: 829
+Node 1: TCPSock- flowControl:Old Window Size: 829
+Node 1: TCPSock- flowControl:New Window Size: 829
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1191 for sNo: 10363
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:10978 Window Size:829 SendBase:10363 Remaining in Buffer:5519 Timeout:1191. Buffer Size:5519, Window Size: 829, SendBase:10363, Next Sequence Number:10978
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 829, seqno 10978, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10978 at seq:10978
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10978 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 829, seqno 11085, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11085 at seq:10978
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11085 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10363 and nextSequenceNumber:11192 and remainingBytes:5519.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:11192 Window Size:829 SendBase:10363 Remaining in Buffer:5519 Timeout:1191
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10470 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10470 from 10363.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1191
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1178
+Node 1: TCPSock- additiveIncrease:Old Window Size: 829
+Node 1: TCPSock- additiveIncrease:New Window Size: 936
+Node 1: TCPSock- flowControl:Old Window Size: 936
+Node 1: TCPSock- flowControl:New Window Size: 936
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1178 for sNo: 10470
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:11192 Window Size:936 SendBase:10470 Remaining in Buffer:5412 Timeout:1178. Buffer Size:5412, Window Size: 936, SendBase:10470, Next Sequence Number:11192
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 936, seqno 11192, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11192 at seq:11192
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11192 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 936, seqno 11299, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11299 at seq:11192
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11299 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10470 and nextSequenceNumber:11406 and remainingBytes:5412.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:11406 Window Size:936 SendBase:10470 Remaining in Buffer:5412 Timeout:1178
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10577 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10577 from 10470.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1178
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1137
+Node 1: TCPSock- additiveIncrease:Old Window Size: 936
+Node 1: TCPSock- additiveIncrease:New Window Size: 1043
+Node 1: TCPSock- flowControl:Old Window Size: 1043
+Node 1: TCPSock- flowControl:New Window Size: 1043
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1137 for sNo: 10577
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:11406 Window Size:1043 SendBase:10577 Remaining in Buffer:5305 Timeout:1137. Buffer Size:5305, Window Size: 1043, SendBase:10577, Next Sequence Number:11406
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1043, seqno 11406, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11406 at seq:11406
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11406 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1043, seqno 11513, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11513 at seq:11406
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11513 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10577 and nextSequenceNumber:11620 and remainingBytes:5305.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 9962 has been cancelled (sendBase: 10577)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:11620 Window Size:1043 SendBase:10577 Remaining in Buffer:5305 Timeout:1137
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10684 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10684 from 10577.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1137
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1079
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1043
+Node 1: TCPSock- additiveIncrease:New Window Size: 1150
+Node 1: TCPSock- flowControl:Old Window Size: 1150
+Node 1: TCPSock- flowControl:New Window Size: 1150
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1079 for sNo: 10684
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:11620 Window Size:1150 SendBase:10684 Remaining in Buffer:5198 Timeout:1079. Buffer Size:5198, Window Size: 1150, SendBase:10684, Next Sequence Number:11620
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1150, seqno 11620, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11620 at seq:11620
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11620 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1150, seqno 11727, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11727 at seq:11620
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11727 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10684 and nextSequenceNumber:11834 and remainingBytes:5198.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:11834 Window Size:1150 SendBase:10684 Remaining in Buffer:5198 Timeout:1079
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10764 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10764 from 10684.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1079
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1032
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1150
+Node 1: TCPSock- additiveIncrease:New Window Size: 1257
+Node 1: TCPSock- flowControl:Old Window Size: 1257
+Node 1: TCPSock- flowControl:New Window Size: 1257
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1032 for sNo: 10764
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:11834 Window Size:1257 SendBase:10764 Remaining in Buffer:5118 Timeout:1032. Buffer Size:5118, Window Size: 1257, SendBase:10764, Next Sequence Number:11834
+Node 1: TCPSock- sendBuffer:Sending 187 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1257, seqno 11834, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11834 at seq:11834
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11834 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1257, seqno 11941, type 3, and payload length 80.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11941 at seq:11834
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:80 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10764 and nextSequenceNumber:12021 and remainingBytes:5118.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12021 Window Size:1257 SendBase:10764 Remaining in Buffer:5118 Timeout:1032
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 10871 from 10764.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1032
+Node 1: TCPSock- recomputeTimeout:New Timeout: 951
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1257
+Node 1: TCPSock- additiveIncrease:New Window Size: 1364
+Node 1: TCPSock- flowControl:Old Window Size: 1364
+Node 1: TCPSock- flowControl:New Window Size: 1364
+Node 1: TCPSock- addTimer:Adding timer with timeout: 951 for sNo: 10871
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:12021 Window Size:1364 SendBase:10871 Remaining in Buffer:5011 Timeout:951. Buffer Size:5011, Window Size: 1364, SendBase:10871, Next Sequence Number:12021
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1364, seqno 12021, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12021 at seq:12021
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12021 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1364, seqno 12128, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12128 at seq:12021
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12128 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 9481 has been cancelled (sendBase: 10871)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10069 has been cancelled (sendBase: 10871)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:1364 SendBase:10871 Remaining in Buffer:5011 Timeout:951
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10149 has been cancelled (sendBase: 10871)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:1364 SendBase:10871 Remaining in Buffer:5011 Timeout:951
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10256 has been cancelled (sendBase: 10871)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:1364 SendBase:10871 Remaining in Buffer:5011 Timeout:951
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 10871.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1364, seqno 10871, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10871 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10363 has been cancelled (sendBase: 10871)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:1364 SendBase:10871 Remaining in Buffer:5011 Timeout:951
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10470 has been cancelled (sendBase: 10871)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10577 has been cancelled (sendBase: 10871)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10684 has been cancelled (sendBase: 10871)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:1364 SendBase:10871 Remaining in Buffer:5011 Timeout:951
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10764 has been cancelled (sendBase: 10871)
+Node 1: TCPSock- handleTimeout:Data packet 10871 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 1364
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 682
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 682, seqno 10871, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10871 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1902 for sNo: 10871
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:682 SendBase:10871 Remaining in Buffer:5011 Timeout:1902
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:682 SendBase:10871 Remaining in Buffer:5011 Timeout:1902
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:682 SendBase:10871 Remaining in Buffer:5011 Timeout:1902
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 10871.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 682, seqno 10871, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:10871 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:682 SendBase:10871 Remaining in Buffer:5011 Timeout:1902
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:10871 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:10871 and nextSequenceNumber:12235 and remainingBytes:5011.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12235 Window Size:682 SendBase:10871 Remaining in Buffer:5011 Timeout:1902
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 11941 from 10871.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1902
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1158
+Node 1: TCPSock- additiveIncrease:Old Window Size: 682
+Node 1: TCPSock- additiveIncrease:New Window Size: 789
+Node 1: TCPSock- flowControl:Old Window Size: 789
+Node 1: TCPSock- flowControl:New Window Size: 789
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1158 for sNo: 11941
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:12235 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158. Buffer Size:3941, Window Size: 789, SendBase:11941, Next Sequence Number:12235
+Node 1: TCPSock- sendBuffer:Sending 495 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 789, seqno 12235, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12235 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12235 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 789, seqno 12342, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12342 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12342 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 789, seqno 12449, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12449 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 789, seqno 12556, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12556 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12556 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 789, seqno 12663, type 3, and payload length 67.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12663 at seq:12235
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12663 Origin Port:5 Dest Port:5 Payload Size:67 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:11941 and nextSequenceNumber:12730 and remainingBytes:3941.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12730 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:11941 and nextSequenceNumber:12730 and remainingBytes:3941.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12730 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:11941 and nextSequenceNumber:12730 and remainingBytes:3941.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12730 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 11941.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 789, seqno 11941, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:11941 at seq:12730
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:11941 and nextSequenceNumber:12730 and remainingBytes:3941.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12730 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:11941 and nextSequenceNumber:12730 and remainingBytes:3941.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12730 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:11941 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:11941 and nextSequenceNumber:12730 and remainingBytes:3941.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:12730 Window Size:789 SendBase:11941 Remaining in Buffer:3941 Timeout:1158
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12128 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 12128 from 11941.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1158
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1919
+Node 1: TCPSock- additiveIncrease:Old Window Size: 789
+Node 1: TCPSock- additiveIncrease:New Window Size: 896
+Node 1: TCPSock- flowControl:Old Window Size: 896
+Node 1: TCPSock- flowControl:New Window Size: 896
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1919 for sNo: 12128
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:12730 Window Size:896 SendBase:12128 Remaining in Buffer:3754 Timeout:1919. Buffer Size:3754, Window Size: 896, SendBase:12128, Next Sequence Number:12730
+Node 1: TCPSock- sendBuffer:Sending 294 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 896, seqno 12730, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12730 at seq:12730
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12730 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 896, seqno 12837, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12837 at seq:12730
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12837 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 896, seqno 12944, type 3, and payload length 80.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12944 at seq:12730
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12944 Origin Port:5 Dest Port:5 Payload Size:80 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12128 and nextSequenceNumber:13024 and remainingBytes:3754.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 11941 has been cancelled (sendBase: 12128)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 10871 has been cancelled (sendBase: 12128)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13024 Window Size:896 SendBase:12128 Remaining in Buffer:3754 Timeout:1919
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12128 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12128 and nextSequenceNumber:13024 and remainingBytes:3754.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13024 Window Size:896 SendBase:12128 Remaining in Buffer:3754 Timeout:1919
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12128 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12128 and nextSequenceNumber:13024 and remainingBytes:3754.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13024 Window Size:896 SendBase:12128 Remaining in Buffer:3754 Timeout:1919
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12128 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 12128.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 896, seqno 12128, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12128 at seq:13024
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12128 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12128 and nextSequenceNumber:13024 and remainingBytes:3754.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13024 Window Size:896 SendBase:12128 Remaining in Buffer:3754 Timeout:1919
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 12449 from 12128.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1919
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2597
+Node 1: TCPSock- additiveIncrease:Old Window Size: 896
+Node 1: TCPSock- additiveIncrease:New Window Size: 1003
+Node 1: TCPSock- flowControl:Old Window Size: 1003
+Node 1: TCPSock- flowControl:New Window Size: 1003
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2597 for sNo: 12449
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:13024 Window Size:1003 SendBase:12449 Remaining in Buffer:3433 Timeout:2597. Buffer Size:3433, Window Size: 1003, SendBase:12449, Next Sequence Number:13024
+Node 1: TCPSock- sendBuffer:Sending 428 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1003, seqno 13024, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13024 at seq:13024
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13024 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1003, seqno 13131, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13131 at seq:13024
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13131 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1003, seqno 13238, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13238 at seq:13024
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13238 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1003, seqno 13345, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13345 at seq:13024
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13345 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12449 and nextSequenceNumber:13452 and remainingBytes:3433.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13452 Window Size:1003 SendBase:12449 Remaining in Buffer:3433 Timeout:2597
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12449 and nextSequenceNumber:13452 and remainingBytes:3433.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 12128 has been cancelled (sendBase: 12449)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13452 Window Size:1003 SendBase:12449 Remaining in Buffer:3433 Timeout:2597
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12449 and nextSequenceNumber:13452 and remainingBytes:3433.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13452 Window Size:1003 SendBase:12449 Remaining in Buffer:3433 Timeout:2597
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 12449.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1003, seqno 12449, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12449 at seq:13452
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12449 and nextSequenceNumber:13452 and remainingBytes:3433.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13452 Window Size:1003 SendBase:12449 Remaining in Buffer:3433 Timeout:2597
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12449 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12449 and nextSequenceNumber:13452 and remainingBytes:3433.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13452 Window Size:1003 SendBase:12449 Remaining in Buffer:3433 Timeout:2597
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12556 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 12556 from 12449.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2597
+Node 1: TCPSock- recomputeTimeout:New Timeout: 3035
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1003
+Node 1: TCPSock- additiveIncrease:New Window Size: 1110
+Node 1: TCPSock- flowControl:Old Window Size: 1110
+Node 1: TCPSock- flowControl:New Window Size: 1110
+Node 1: TCPSock- addTimer:Adding timer with timeout: 3035 for sNo: 12556
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:13452 Window Size:1110 SendBase:12556 Remaining in Buffer:3326 Timeout:3035. Buffer Size:3326, Window Size: 1110, SendBase:12556, Next Sequence Number:13452
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1110, seqno 13452, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13452 at seq:13452
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13452 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1110, seqno 13559, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13559 at seq:13452
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13559 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12556 and nextSequenceNumber:13666 and remainingBytes:3326.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13666 Window Size:1110 SendBase:12556 Remaining in Buffer:3326 Timeout:3035
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12556 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12556 and nextSequenceNumber:13666 and remainingBytes:3326.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13666 Window Size:1110 SendBase:12556 Remaining in Buffer:3326 Timeout:3035
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:12556 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:12556 and nextSequenceNumber:13666 and remainingBytes:3326.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 12449 has been cancelled (sendBase: 12556)
+Node 1: TCPSock- handleTimeout:Data packet 12556 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 1110
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 555
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 555, seqno 12556, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:12556 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:12556 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 6070 for sNo: 12556
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:13666 Window Size:555 SendBase:12556 Remaining in Buffer:3326 Timeout:6070
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:13666 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 13666 from 12556.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 6070
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2479
+Node 1: TCPSock- additiveIncrease:Old Window Size: 555
+Node 1: TCPSock- additiveIncrease:New Window Size: 662
+Node 1: TCPSock- flowControl:Old Window Size: 662
+Node 1: TCPSock- flowControl:New Window Size: 662
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2479 for sNo: 13666
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:13666 Window Size:662 SendBase:13666 Remaining in Buffer:2216 Timeout:2479. Buffer Size:2216, Window Size: 662, SendBase:13666, Next Sequence Number:13666
+Node 1: TCPSock- sendBuffer:Sending 662 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 13666, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13666 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13666 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 13773, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13773 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13773 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 13880, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13880 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13880 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 13987, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:13987 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:13987 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 14094, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14094 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14094 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 14201, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14201 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14201 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 662, seqno 14308, type 3, and payload length 20.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14308 at seq:13666
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14308 Origin Port:5 Dest Port:5 Payload Size:20 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:13666 and nextSequenceNumber:14328 and remainingBytes:2216.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:14328 Window Size:662 SendBase:13666 Remaining in Buffer:2216 Timeout:2479
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:13880 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 13880 from 13666.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2479
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2092
+Node 1: TCPSock- additiveIncrease:Old Window Size: 662
+Node 1: TCPSock- additiveIncrease:New Window Size: 769
+Node 1: TCPSock- flowControl:Old Window Size: 769
+Node 1: TCPSock- flowControl:New Window Size: 769
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2092 for sNo: 13880
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:14328 Window Size:769 SendBase:13880 Remaining in Buffer:2002 Timeout:2092. Buffer Size:2002, Window Size: 769, SendBase:13880, Next Sequence Number:14328
+Node 1: TCPSock- sendBuffer:Sending 321 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 769, seqno 14328, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14328 at seq:14328
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14328 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 769, seqno 14435, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14435 at seq:14328
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14435 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 769, seqno 14542, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14542 at seq:14328
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14542 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:13880 and nextSequenceNumber:14649 and remainingBytes:2002.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:14649 Window Size:769 SendBase:13880 Remaining in Buffer:2002 Timeout:2092
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:13987 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 13987 from 13880.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2092
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2147
+Node 1: TCPSock- additiveIncrease:Old Window Size: 769
+Node 1: TCPSock- additiveIncrease:New Window Size: 876
+Node 1: TCPSock- flowControl:Old Window Size: 876
+Node 1: TCPSock- flowControl:New Window Size: 876
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2147 for sNo: 13987
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:14649 Window Size:876 SendBase:13987 Remaining in Buffer:1895 Timeout:2147. Buffer Size:1895, Window Size: 876, SendBase:13987, Next Sequence Number:14649
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 876, seqno 14649, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14649 at seq:14649
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14649 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 876, seqno 14756, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14756 at seq:14649
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14756 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:13987 and nextSequenceNumber:14863 and remainingBytes:1895.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:14863 Window Size:876 SendBase:13987 Remaining in Buffer:1895 Timeout:2147
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14094 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14094 from 13987.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2147
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2121
+Node 1: TCPSock- additiveIncrease:Old Window Size: 876
+Node 1: TCPSock- additiveIncrease:New Window Size: 983
+Node 1: TCPSock- flowControl:Old Window Size: 983
+Node 1: TCPSock- flowControl:New Window Size: 983
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2121 for sNo: 14094
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:14863 Window Size:983 SendBase:14094 Remaining in Buffer:1788 Timeout:2121. Buffer Size:1788, Window Size: 983, SendBase:14094, Next Sequence Number:14863
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 983, seqno 14863, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14863 at seq:14863
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14863 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 983, seqno 14970, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:14970 at seq:14863
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:14970 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14094 and nextSequenceNumber:15077 and remainingBytes:1788.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15077 Window Size:983 SendBase:14094 Remaining in Buffer:1788 Timeout:2121
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14201 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14201 from 14094.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2121
+Node 1: TCPSock- recomputeTimeout:New Timeout: 2042
+Node 1: TCPSock- additiveIncrease:Old Window Size: 983
+Node 1: TCPSock- additiveIncrease:New Window Size: 1090
+Node 1: TCPSock- flowControl:Old Window Size: 1090
+Node 1: TCPSock- flowControl:New Window Size: 1090
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2042 for sNo: 14201
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15077 Window Size:1090 SendBase:14201 Remaining in Buffer:1681 Timeout:2042. Buffer Size:1681, Window Size: 1090, SendBase:14201, Next Sequence Number:15077
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1090, seqno 15077, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15077 at seq:15077
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15077 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1090, seqno 15184, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15184 at seq:15077
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14201 and nextSequenceNumber:15291 and remainingBytes:1681.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15291 Window Size:1090 SendBase:14201 Remaining in Buffer:1681 Timeout:2042
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14308 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14308 from 14201.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2042
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1929
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1090
+Node 1: TCPSock- additiveIncrease:New Window Size: 1197
+Node 1: TCPSock- flowControl:Old Window Size: 1197
+Node 1: TCPSock- flowControl:New Window Size: 1197
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1929 for sNo: 14308
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15291 Window Size:1197 SendBase:14308 Remaining in Buffer:1574 Timeout:1929. Buffer Size:1574, Window Size: 1197, SendBase:14308, Next Sequence Number:15291
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1197, seqno 15291, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15291 at seq:15291
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15291 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1197, seqno 15398, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15398 at seq:15291
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15398 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14308 and nextSequenceNumber:15505 and remainingBytes:1574.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15505 Window Size:1197 SendBase:14308 Remaining in Buffer:1574 Timeout:1929
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14328 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14328 from 14308.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1929
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1874
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1197
+Node 1: TCPSock- additiveIncrease:New Window Size: 1304
+Node 1: TCPSock- flowControl:Old Window Size: 1304
+Node 1: TCPSock- flowControl:New Window Size: 1304
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1874 for sNo: 14328
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15505 Window Size:1304 SendBase:14328 Remaining in Buffer:1554 Timeout:1874. Buffer Size:1554, Window Size: 1304, SendBase:14328, Next Sequence Number:15505
+Node 1: TCPSock- sendBuffer:Sending 127 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1304, seqno 15505, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15505 at seq:15505
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15505 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1304, seqno 15612, type 3, and payload length 20.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15612 at seq:15505
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15612 Origin Port:5 Dest Port:5 Payload Size:20 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14328 and nextSequenceNumber:15632 and remainingBytes:1554.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15632 Window Size:1304 SendBase:14328 Remaining in Buffer:1554 Timeout:1874
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14435 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14435 from 14328.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1874
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1704
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1304
+Node 1: TCPSock- additiveIncrease:New Window Size: 1411
+Node 1: TCPSock- flowControl:Old Window Size: 1411
+Node 1: TCPSock- flowControl:New Window Size: 1411
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1704 for sNo: 14435
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15632 Window Size:1411 SendBase:14435 Remaining in Buffer:1447 Timeout:1704. Buffer Size:1447, Window Size: 1411, SendBase:14435, Next Sequence Number:15632
+Node 1: TCPSock- sendBuffer:Sending 214 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1411, seqno 15632, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15632 at seq:15632
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15632 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1411, seqno 15739, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15739 at seq:15632
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15739 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14435 and nextSequenceNumber:15846 and remainingBytes:1447.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15846 Window Size:1411 SendBase:14435 Remaining in Buffer:1447 Timeout:1704
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14542 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14542 from 14435.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1704
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1541
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1411
+Node 1: TCPSock- additiveIncrease:New Window Size: 1518
+Node 1: TCPSock- flowControl:Old Window Size: 1518
+Node 1: TCPSock- flowControl:New Window Size: 1518
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1541 for sNo: 14542
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15846 Window Size:1518 SendBase:14542 Remaining in Buffer:1340 Timeout:1541. Buffer Size:1340, Window Size: 1518, SendBase:14542, Next Sequence Number:15846
+Node 1: TCPSock- sendBuffer:Sending 36 bytes from the buffer.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1518, seqno 15846, type 3, and payload length 36.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15846 at seq:15846
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15846 Origin Port:5 Dest Port:5 Payload Size:36 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14542 and nextSequenceNumber:15882 and remainingBytes:1340.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1518 SendBase:14542 Remaining in Buffer:1340 Timeout:1541
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14649 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14649 from 14542.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1541
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1390
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1518
+Node 1: TCPSock- additiveIncrease:New Window Size: 1625
+Node 1: TCPSock- flowControl:Old Window Size: 1625
+Node 1: TCPSock- flowControl:New Window Size: 1625
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1390 for sNo: 14649
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:1625 SendBase:14649 Remaining in Buffer:1233 Timeout:1390. Buffer Size:1233, Window Size: 1625, SendBase:14649, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14649 and nextSequenceNumber:15882 and remainingBytes:1233.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1625 SendBase:14649 Remaining in Buffer:1233 Timeout:1390
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14756 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14756 from 14649.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1390
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1250
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1625
+Node 1: TCPSock- additiveIncrease:New Window Size: 1732
+Node 1: TCPSock- flowControl:Old Window Size: 1732
+Node 1: TCPSock- flowControl:New Window Size: 1732
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1250 for sNo: 14756
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:1732 SendBase:14756 Remaining in Buffer:1126 Timeout:1250. Buffer Size:1126, Window Size: 1732, SendBase:14756, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14756 and nextSequenceNumber:15882 and remainingBytes:1126.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1732 SendBase:14756 Remaining in Buffer:1126 Timeout:1250
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14863 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14863 from 14756.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1250
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1124
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1732
+Node 1: TCPSock- additiveIncrease:New Window Size: 1839
+Node 1: TCPSock- flowControl:Old Window Size: 1839
+Node 1: TCPSock- flowControl:New Window Size: 1839
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1124 for sNo: 14863
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:1839 SendBase:14863 Remaining in Buffer:1019 Timeout:1124. Buffer Size:1019, Window Size: 1839, SendBase:14863, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14863 and nextSequenceNumber:15882 and remainingBytes:1019.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1839 SendBase:14863 Remaining in Buffer:1019 Timeout:1124
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:14970 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 14970 from 14863.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1124
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1009
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1839
+Node 1: TCPSock- additiveIncrease:New Window Size: 1946
+Node 1: TCPSock- flowControl:Old Window Size: 1946
+Node 1: TCPSock- flowControl:New Window Size: 1946
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1009 for sNo: 14970
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:1946 SendBase:14970 Remaining in Buffer:912 Timeout:1009. Buffer Size:912, Window Size: 1946, SendBase:14970, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:14970 and nextSequenceNumber:15882 and remainingBytes:912.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1946 SendBase:14970 Remaining in Buffer:912 Timeout:1009
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15077 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 15077 from 14970.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1009
+Node 1: TCPSock- recomputeTimeout:New Timeout: 907
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1946
+Node 1: TCPSock- additiveIncrease:New Window Size: 2053
+Node 1: TCPSock- flowControl:Old Window Size: 2053
+Node 1: TCPSock- flowControl:New Window Size: 2053
+Node 1: TCPSock- addTimer:Adding timer with timeout: 907 for sNo: 15077
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:2053 SendBase:15077 Remaining in Buffer:805 Timeout:907. Buffer Size:805, Window Size: 2053, SendBase:15077, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15077 and nextSequenceNumber:15882 and remainingBytes:805.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:2053 SendBase:15077 Remaining in Buffer:805 Timeout:907
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 15184 from 15077.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 907
+Node 1: TCPSock- recomputeTimeout:New Timeout: 811
+Node 1: TCPSock- additiveIncrease:Old Window Size: 2053
+Node 1: TCPSock- additiveIncrease:New Window Size: 2160
+Node 1: TCPSock- flowControl:Old Window Size: 2160
+Node 1: TCPSock- flowControl:New Window Size: 2160
+Node 1: TCPSock- addTimer:Adding timer with timeout: 811 for sNo: 15184
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:2160 SendBase:15184 Remaining in Buffer:698 Timeout:811. Buffer Size:698, Window Size: 2160, SendBase:15184, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15184 and nextSequenceNumber:15882 and remainingBytes:698.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 13666 has been cancelled (sendBase: 15184)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:2160 SendBase:15184 Remaining in Buffer:698 Timeout:811
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15184 and nextSequenceNumber:15882 and remainingBytes:698.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:2160 SendBase:15184 Remaining in Buffer:698 Timeout:811
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15184 and nextSequenceNumber:15882 and remainingBytes:698.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:2160 SendBase:15184 Remaining in Buffer:698 Timeout:811
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- ack:TCP-Fast Retransmit for sequence number 15184.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 2160, seqno 15184, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15184 at seq:15882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15184 and nextSequenceNumber:15882 and remainingBytes:698.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 13880 has been cancelled (sendBase: 15184)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:2160 SendBase:15184 Remaining in Buffer:698 Timeout:811
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15184 and nextSequenceNumber:15882 and remainingBytes:698.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 13987 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14756 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14863 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14649 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14970 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14542 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 15077 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14094 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14435 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Data packet 15184 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 2160
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 1080
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 1080, seqno 15184, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15184 at seq:15882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15184 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1622 for sNo: 15184
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14201 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14328 has been cancelled (sendBase: 15184)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 14308 has been cancelled (sendBase: 15184)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1080 SendBase:15184 Remaining in Buffer:698 Timeout:1622
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15398 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 15398 from 15184.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1622
+Node 1: TCPSock- recomputeTimeout:New Timeout: 708
+Node 1: TCPSock- additiveIncrease:Old Window Size: 1080
+Node 1: TCPSock- additiveIncrease:New Window Size: 1187
+Node 1: TCPSock- flowControl:Old Window Size: 1187
+Node 1: TCPSock- flowControl:New Window Size: 1187
+Node 1: TCPSock- addTimer:Adding timer with timeout: 708 for sNo: 15398
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:1187 SendBase:15398 Remaining in Buffer:484 Timeout:708. Buffer Size:484, Window Size: 1187, SendBase:15398, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15398 and nextSequenceNumber:15882 and remainingBytes:484.
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:1187 SendBase:15398 Remaining in Buffer:484 Timeout:708
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15398 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Received duplicate ACK.
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15398 and nextSequenceNumber:15882 and remainingBytes:484.
+Node 1: TCPSock- handleTimeout:Data packet 15398 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 1187
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 593
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 593, seqno 15398, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15398 at seq:15882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15398 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1416 for sNo: 15398
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:593 SendBase:15398 Remaining in Buffer:484 Timeout:1416
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15612 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 15612 from 15398.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1416
+Node 1: TCPSock- recomputeTimeout:New Timeout: 966
+Node 1: TCPSock- additiveIncrease:Old Window Size: 593
+Node 1: TCPSock- additiveIncrease:New Window Size: 700
+Node 1: TCPSock- flowControl:Old Window Size: 700
+Node 1: TCPSock- flowControl:New Window Size: 700
+Node 1: TCPSock- addTimer:Adding timer with timeout: 966 for sNo: 15612
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:700 SendBase:15612 Remaining in Buffer:270 Timeout:966. Buffer Size:270, Window Size: 700, SendBase:15612, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15612 and nextSequenceNumber:15882 and remainingBytes:270.
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 15184 has been cancelled (sendBase: 15612)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 15398 has been cancelled (sendBase: 15612)
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 12556 has been cancelled (sendBase: 15612)
+Node 1: TCPSock- handleTimeout:Data packet 15612 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 700
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 350
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 350, seqno 15612, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15612 at seq:15882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15612 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1932 for sNo: 15612
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:350 SendBase:15612 Remaining in Buffer:270 Timeout:1932
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15739 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 15739 from 15612.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 1932
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1123
+Node 1: TCPSock- additiveIncrease:Old Window Size: 350
+Node 1: TCPSock- additiveIncrease:New Window Size: 457
+Node 1: TCPSock- flowControl:Old Window Size: 457
+Node 1: TCPSock- flowControl:New Window Size: 457
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1123 for sNo: 15739
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:457 SendBase:15739 Remaining in Buffer:143 Timeout:1123. Buffer Size:143, Window Size: 457, SendBase:15739, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15739 and nextSequenceNumber:15882 and remainingBytes:143.
+Node 1: TCPSock- handleTimeout:Data packet 15739 timed out.
+Node 1: TCPSock- multiplicativeDecrease:Old Window Size: 457
+Node 1: TCPSock- multiplicativeDecrease:New Window Size: 228
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 228, seqno 15739, type 3, and payload length 107.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15739 at seq:15882
+Node 1: TCPManager: Sending packet - Type:DATA Sequence Number:15739 Origin Port:5 Dest Port:5 Payload Size:107 - from 1 to 0.
+Node 1: TCPSock- addTimer:Adding timer with timeout: 2246 for sNo: 15739
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 15612 has been cancelled (sendBase: 15739)
+Node 1: TCPManager: Received packet to: 1:5 from: 0:5
+Node 1: TCPManager: Handing over to socket: Client Socket: Sequence Number:15882 Window Size:228 SendBase:15739 Remaining in Buffer:143 Timeout:2246
+Node 1: TCPSock- handlePacket:Handling packet from: 0 packet: Type:ACK Sequence Number:15882 Origin Port:5 Dest Port:5 Payload Size:0
+Node 1: TCPSock- ack:Cumulative ACKing 15882 from 15739.
+Node 1: TCPSock- recomputeTimeout:Old Timeout: 2246
+Node 1: TCPSock- recomputeTimeout:New Timeout: 1207
+Node 1: TCPSock- additiveIncrease:Old Window Size: 228
+Node 1: TCPSock- additiveIncrease:New Window Size: 335
+Node 1: TCPSock- flowControl:Old Window Size: 335
+Node 1: TCPSock- flowControl:New Window Size: 335
+Node 1: TCPSock- addTimer:Adding timer with timeout: 1207 for sNo: 15882
+Node 1: TCPSock- sendBuffer:Sending buffer from sock:Client Socket: Sequence Number:15882 Window Size:335 SendBase:15882 Remaining in Buffer:0 Timeout:1207. Buffer Size:0, Window Size: 335, SendBase:15882, Next Sequence Number:15882
+Node 1: TCPSock- handlePacket:Attempting to close socket.
+Node 1: TCPSock- close:Attempting to close socket with - sendBase:15882 and nextSequenceNumber:15882 and remainingBytes:0.
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 335, seqno 15882, type 2, and payload length 0.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15882 at seq:15882
+Node 1: TCPManager: Sending packet - Type:FIN Sequence Number:15882 Origin Port:5 Dest Port:5 Payload Size:0 - from 1 to 0.
+Node 1: TCPManager: Connections: [1:5 0:5, 1:5 -1:-1]
+Node 1: TCPManager: removing 1:5 0:5
+Node 1: TCPSock- sendPacket:Assembling packet from port 5 to 5, with windowsize 335, seqno 15882, type 2, and payload length 0.
+Node 1: TCPSock- sendPacket:Sending packet with seq:15882 at seq:15882
+Node 1: TCPManager: Sending packet - Type:FIN Sequence Number:15882 Origin Port:5 Dest Port:5 Payload Size:0 - from 1 to 0.
+Node 1: TCPManager: Connections: [1:5 -1:-1]
+Node 1: TCPManager: removing 1:5 0:5
+Node 1: TCPManager: Attempting to deregister a connection that does not exist!
+Node 1: TCPSock- handleTimeout:Timer for seqNo: 15739 has been cancelled (sendBase: 15882)

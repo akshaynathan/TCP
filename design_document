@@ -1,0 +1,43 @@
+The main files I modified are TCPSock, TCPManager, TCPBuffer, and OutOfOrderBuffer.
+
+Everything should be commented and thats probably a lot more useful than reading this.
+
+TCPBuffer is a pretty self-explanatory circular buffer to hold read/write data for the sockets. The api provided allows you to retrieve byte[] from anywhere in the buffer, and advance the start position to free up space in the buffer (useful for when we get an ack or when data is read).
+
+The OutOfOrderBuffer is a LinkedList of elements that hold the sequence number and payload of out of order packets. The important operation here is combine, that combines overlapping out of order packets so we can easily read them when needed. This should be a tree if we wanted it to be faster, but I didnt have time to implement that.
+
+The main thing TCPManager takes care of is demultiplexing. TCPManager holds a hashtable of Connections, which are basically structs of src_addr, src_port, dst_addr, and dst_port. For listening sockets, the connection we have has dst_* as -1. When a packet arrives, we search the HashTable for the appropriate 4 element Connection, and if we cant find that we look for a listening socket, and if we cant find that either we send back a fin.
+TCPManager also deals with sending packets, as our TCPSock calls the TCPManager sendPacket function whenever it needs to send a Transport packet. TCPManager does the packing and actual sending.
+
+Alright, TCPSock has all the important stuff. First the API, applications interact with TCPSock by calling read and write on them. These functions are non-blocking, and will send whatever data can fit in the window, and put the rest in the buffer. Read reads as much data as possible ( < len) from the buffer. We can create Listening sockets by calling bind and listen, and connect to a remote host by calling connect. Server sockets to be read from can be gotten by calling accept.
+
+In terms of implementation, my TCPSock's have a State (established, syn_sent, etc..) and a type (server, client, listener) This is slightly reduntant but it helped me when coding to understand what I was doing much better. The listening socket has a request queue (a linked list), that we add new TCPSock (type = Server) to when we get a SYN from a remote host, and we take out from when the application calls accept.
+
+My implementation of TCP maintains one timer at any time. Because addTimer in the manager has no method for making sure we only have one at a time, I handle this with a boolean called timerSet. However, we also need the sequence number as a parameter to the callBack, so we can make sure this timeout wasnt cancelled in the past (seq < sendBase). 
+
+Server:
+Upon receipt of a data packet, the server checks if the data packets sequence number is whats expected. If it is, it puts the contents in the buffer and updates the sequence number. If not, we add the packet to our out of order buffer. On every receipt, we attempt to clear this buffer if there is no gap between the next sequence number and the first element in the buffer (the OutOfOrderBuffer stays sorted).
+
+On receipt of a FIN, the server socket waits for all the data to be read. I'm not sure if this is right or not, but the reason I chose to do this is so that the transfer client and transfer server will both have read/written the same amount of data.
+
+If the server gets a SYN, this is bc the initial ACK was lost, so we just resend it.
+
+Client:
+Upon receipt of an ACK, the client will check if the ACK is greater than the current sendBase. If it is, then we will cumulative ack up until that point, and then update the timer for the new sendBase. We also try to send everything we can from the buffer that has not been sent already in the additional window size we have gained after the cumulative ack. We also update the window size (AI and flow control), and the timeout value with the new RTT. New timeouts are calculated using
+the sampling algorithm from the slides.
+
+If the ACK does not change sendBase, then we identify it as a duplicate ACK, once our duplicate ACKS reach 3, Ive implemented TCP fast retransmit to retransmit the data before we get a timeout. We also restart the timer obviously because we are resending the packet.
+
+Timeout:
+On a timeout, we increase our next timeout value by a factor of 2 so that we can try to avoid another timeout. (If we dont have timeouts, this value will automatically come back down). We then resend as large of a portion of the unacked data as we can and restart the timer.
+
+Misc:
+I implemented very basic AIMD, just with constant factors. On Timeout and retransmit, we decrease by a factor of 1/2, and on successful receipt, increase by the max payload size.
+
+Testing:
+I did all my testing within the emulator and simulators themselves. All the tests I did are pretty easy to replicate. For multiple connections, used three.topo, and created connections to the server from both the client nodes.
+
+For flow control and window AIMD, the best way to see this is to do the following:
+Simulate congestion in the network by reducing the bandwidth below the window size. Turn on debug mode by setting the debug flag to true in Node. Run the server and clients in the emulator, and you should probably redirect stderr to a file for easy searching. After the run, if you grep these files for "additiveIncrease", "multiplicativeDecrease", and "flowControl", it will give you all the changes in window size labeled by their reason. We can then see that the window
+size goes down until it is lower than the bandwidth, and then slowly increases until more congestion events happen.
+
